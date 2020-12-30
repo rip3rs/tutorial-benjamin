@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "tutorial-benjamin"
+    }
+  },
+  "defaultProject": "tutorial-benjamin",
+  "cli": {
+    "analytics": false
+  }
 }

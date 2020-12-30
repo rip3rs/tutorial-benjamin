@@ -1,0 +1,12 @@
+<h1>THIS IS THE MAIN STRUCTURE COMPONENT</h1>
+<p>
+  The Data that was sent from my Parent Component: {{BANANAS}}
+</p>
+
+<app-window-component [isBANANAS]="BANANAS" ></app-window-component>
+
+<div *ngIf="aNewEventAsArrivedFromChild" style="border: 1px solid red;">
+  HAHA I came from the child component Window: {{aNewEventAsArrivedFromChild}}
+</div>
+
+<!-- <app-door-component></app-door-component> -->
